@@ -7,6 +7,7 @@ Currently, there is no backend, but it is not too difficult to edit/add pages.
 The default theme, is pretty ugly as I just chucked something together for development 
 purposes, however I will work on putting out a nicer version.
 
+[Download Cura](https://github.com/gr33npixel/CuraCMS/archive/master.zip)
 
 Upcoming Features
 --------
@@ -70,7 +71,7 @@ Open the browse tag of phpMyAdmin and click "Edit" next to the page you would li
 Theme Design
 =======
 
-Your theme should be saved in a file called "theme.php" in the root directory.
+Your theme is located at the base of index.php. Another version has a dedicated file "theme.php", but that has a bug, so will be release once fixed.
 A curaCMS theme is comprised of standard html, and placeholders.
 
 | Variable                      	| Description                                                                  	|
@@ -99,3 +100,4 @@ Example Theme
                 </section>
         </body>
 
+[Download Cura](https://github.com/gr33npixel/CuraCMS/archive/master.zip)
