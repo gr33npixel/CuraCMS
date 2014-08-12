@@ -84,16 +84,18 @@ A curaCMS theme is comprised of standard html, and placeholders.
 | <?php echo $p_id?>            	| ID of the page you are currently on.                                         	|
 
 Example Theme
-`<html>
-`<head>
-`        <link href=<?php echo $t_stylesheet;?> rel="stylesheet"/>
-`        <title><?php echo $html_title; ?> | <?php echo $s_name?></title>
-`</head>
-`<body>
-        <section>
-        <nav><ul><?php echo $html_nav_items;?></ul></nav>
-                <?php echo $html_content ?>
-        <footer><?php echo $s_footer;?></footer>
-        </section>
-</body>`
+
+
+        <html>
+        <head>
+                <link href=<?php echo $t_stylesheet;?> rel="stylesheet"/>
+                <title><?php echo $html_title; ?> | <?php echo $s_name?></title>
+        </head>
+        <body>
+                <section>
+                <nav><ul><?php echo $html_nav_items;?></ul></nav>
+                        <?php echo $html_content ?>
+                <footer><?php echo $s_footer;?></footer>
+                </section>
+        </body>
 
