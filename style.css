@@ -1,0 +1,8 @@
+body{margin:0;padding:0;background:url(http://subtlepatterns.com/patterns/sativa.png);}
+nav{background:pink;margin:0 auto; padding:15px 0;}
+nav li{display:inline;margin-left:15px;}
+nav li a{color:white; text-decoration:none;}
+nav li a:hover{text-decoration:underline;}
+section{width:70%;margin: 0 auto;background:white;margin-top:10px;}
+article{width:80%; margin: 0 auto;}
+footer{text-align:center;padding-bottom:10px;padding-top:10px;}
