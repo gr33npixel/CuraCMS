@@ -5,7 +5,6 @@ if (!$_GET['id']){
 	$p_id = 1;
 }
 //This line is removable under the conditions that I am notified beforehand.
-//You can do so at henry.greaves1@gmail.com
 $s_footer = $s_footer . " Powered by <a href='#'>CuraCMS</a> "; 
 
 $con=mysqli_connect($db_host,$db_user,$db_pass,$db_name);
